@@ -1,0 +1,31 @@
+import React, { Component } from "react";
+import "./nav.css";
+import { Link } from "react-router-dom";
+
+class navbar extends Component {
+  render() {
+    return (
+      <div>
+        <Link to="/Headlines">Headlines</Link>
+        <Link to="/Business">Business</Link>
+        <Link to="/Sport">Sports</Link>
+        <Link to="/Tech">Tech</Link>
+        <Link to="/World">World</Link>
+      </div>
+    );
+  }
+}
+export default navbar;
+
+<div>
+<ul class="menu-bar">
+  <li>Headlines</li>
+  <li>Business</li>
+  <li>Sports</li>
+  <li>Tech</li>
+  <li>World</li>
+</ul>
+
+<div>
+
+https://github.com/toofaniCoder/react-router-starter
